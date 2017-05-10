@@ -1,0 +1,308 @@
+<!doctype html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Sexta Aplicacion libros</title>
+
+   <!--grupo CSS-->
+   <link rel="stylesheet" href="css/tema_app6.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo JavaScript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+   <script src="phonegap.js"></script>
+  <!-- Start WOWSlider.com HEAD section -->
+
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+ <body onLoad="MM_preloadImages('imagenes/6.jpg','imagenes/juarez.jpg','imagenes/zaragoza2.jpg')">
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Batalla de Puebla.</h1>
+  </div>
+   <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Batalla 4 de Mayo.</h2>
+      <p>Se muestra informacion</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Batalla 5 de mayo</h2>
+      <p>Se muestra la informacion</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Inicio del conflicto</h2>
+      <p>Muestra la informacion</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Movimiento de la batalla</h2>
+      <p>Muestra informacion</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Heroes de la batalla.</h2>
+      <p>Muestra informacion</p>
+     </a>
+    </li>
+    </ul>
+   </div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/4.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/5.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/zaragoza2.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/7.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/8.jpg" alt="jquery slider" title="7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/juarez.jpg" alt="8" title="8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/4.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/5.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/zaragoza2.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/7.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/8.jpg" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/juarez.jpg" alt="8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+     <h4>Aplicacion seis</h4>
+     <h4>Maria Guadalupe Jimenez Vazquez</h4>
+    </div>
+   </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Batalla de 4 de mayo</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2></h2>
+        <p>La <strong>Batalla de Atlixco</strong> tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las taperas en Arlixco en el estado de Puebla Mexico, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomas O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general Jose Maria C abos y de Leonardo Marquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de puebla, durante la Segunta Intervension Francesa en Mexico</p>
+        <p>Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorecez en la batalla de Puebla.</p>
+        <p>La historia de la Batalla del 4 de mayo de 1862 relata que, durante la segunda intervención francesa en México, en la hacienda de La Trapera, los atlixquenses y elementos del ejército mexicano de la república, al mando de los General Antonio Carvajal y Tomas O´Horan se enfrentaron a las tropas al servicio del Segundo Imperio Mexicano comandadas por el Gral. José María Cobos y de Leonardo Márquez.</p>
+        <p>Y que, gracias a este triunfo, el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar al día siguiente a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+        <p>&nbsp;</p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/6.jpg',1)"><img src="imagenes/3.jpg" width="480" height="328" id="Image8"></a></p>
+        <p><a href="file:///C:/Users/LANIX-23/Downloads/1148-1345-1-PB%20(1).pdf" target="_self">descargar</a></p>
+        <p>&nbsp;</p>
+       </div>
+      </div>
+      <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://expreso.press/2016/05/04/la-batalla-del-cuatro-de-mayo/" data-role="button" id="beep">
+      <h2>saber mas.</h2>
+      </a>
+      </li>
+      </ul>
+      </div>
+      </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion seis, MGJV</h4>
+     </div>
+ </div>
+  
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Batalla 5 de mayo</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+         <p>Este&nbsp;<strong>5</strong>&nbsp;<strong>de  Mayo</strong>&nbsp;se conmemora&nbsp;el <strong>aniversario de la Batalla de Puebla</strong>&nbsp;que tuvo lugar en el año de 1862 cuando México era presidido por Benito Juarez y fue  atacado por el Ejército Francés que en ese entonces era considerado como  invencible ya que no había perdido una batalla en más de 50 años. La&nbsp;<strong>historia  de la Batalla de Puebla&nbsp;</strong>es sin duda un episodio que los mexicanos debemos  conocer y admirar.</p>
+         <p>En octubre de 1861, <strong>Francia, Inglaterra y España</strong> suscribieron la <strong>Convención de Londres</strong>, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una <strong>gran deuda de 80 millones de pesos</strong>, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</p>
+         <p>La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.</p>
+         <p>Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al <strong>Ejército de Oriente</strong> y el hombre que se designó en el mando fue el general <strong>Ignacio Zaragoza</strong>.</p>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/zaragoza2.jpg',1)"><img src="imagenes/zaragoza.jpg" width="356" height="494" id="Image25"></a></p>
+         <p>Con 4,000 hombres, el general <strong>Ignacio Zaragoza</strong> concentró sus fuerzas en Puebla para su defensa, ordenando que se levantaran barricadas en las calles y resguardándose en tres cerros que rodean la ciudad con los fuertes de San Juan, <strong>Guadalupe y Loreto</strong>. El Ejército de Oriente, estaba dirigido por los generales <strong>Miguel Negrete</strong>, <strong>Felipe Berriozabal</strong>, <strong>Porfirio Díaz</strong>, <strong>Francisco Lamadrid</strong>, <strong>Santiago Tapia</strong>, <strong>Antonio Álvarez</strong>, <strong>Antonio Carbajal</strong> y <strong>Tomás O&rsquo;Horán</strong>; siendo Negrete quien, al mando de 1,200 soldados, defendería los fuertes, y quien llevó el peso de la batalla, auxiliado por los demás generales, dirigidos por el general Zaragoza.</p>
+         <p>La batalla duró más de cuatro horas y, a las 05:49 de la tarde, el general Ignacio Zaragoza, envía vía telegráfica al presidente Juárez, las siguientes palabras: &ldquo;<em>las armas del supremo gobierno se han cubierto de gloria</em>.&rdquo; y en el parte de hechos agregó después: &ldquo;<em>El ejército francés se ha batido con mucha bizarría; su general en jefe se ha portado con torpeza en el ataque</em>&rdquo;. Zaragoza calculó las bajas del enemigo en más de mil, entre muertos y heridos, además de ocho prisioneros, y 400 de parte de los connacionales.         </p>
+         <p>Pero justo cuando más necesitaban al general Zaragoza, enfermó gravemente de tifo y el 8 de septiembre del mismo año murió en la ciudad de Puebla, siendo sustituido por el general <strong>Jesús González Ortega</strong> al mando del Ejército de Oriente, que se preparaba para seguir resistiendo el avance de los franceses. Puebla fue sitiada un año después y tras dos meses se rindió el 17 de mayo de 1863. Ante tal noticia, el presidente Juárez abandona la Ciudad de México y se traslada a San Luis Potosí. Las fuerzas franco-mexicanas entraron a México el 10 de junio, al mando del general <strong>Elías Frédéric Forey</strong>, enviado por Napoleón III con tropas de refuerzo y para sustituir a Lorencez. Mientras, <strong>Luis Bonaparte</strong>, sobrino de Napoleón I, aliado con los conservadores, comienza los preparativos para recibir al príncipe <strong>Fernando Maximiliano de Habsburgo</strong>, archiduque de Austria, segundo Emperador de México.</p>
+         <p>&nbsp;</p>
+         <p><img src="imagenes/10.jpg" width="392" height="287" alt="1">    </p>
+         <p>&nbsp;</p>
+         <p>&nbsp;</p>
+       </div>
+      </div>
+       <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://udg.mx/es/efemerides/05-mayo" data-role="button" id="beep">
+      <h2>leer mas</h2>
+      </a>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Aqui puedes consultar mas...</h1>
+     <div>
+      <p>consultar ahora </p>
+      <br>
+     </div>
+     <div>
+       <p><a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" target="_self">consulta</a>
+       </p>
+       <p><img src="imagenes/7.jpg" width="564" height="242"></p>
+     </div>
+    </div>
+   </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion seis, MGJV</h4>
+     </div>
+ </div>
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Inicio del conflicto</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+         <p>En octubre de 1861, <strong>Francia, Inglaterra y España</strong> suscribieron la <strong>Convención de Londres</strong>, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una <strong>gran deuda de 80 millones de pesos</strong>, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</p>
+         <p>La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.</p>
+         <p>Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al <strong>Ejército de Oriente</strong> y el hombre que se designó en el mando fue el general <strong>Ignacio Zaragoza</strong>.</p>
+         <p>En un principio la <strong>Alianza Tripartita</strong> aceptó el llamado al diálogo de Benito Juarez y sus representantes se reunieron con <strong>Manuel Doblado</strong>, ministro de Relaciones Exteriores del gobierno mexicano, quien consiguió que <strong>Juan Prim</strong>, representante español, y <strong>Lord John Russell</strong> por Inglaterra se retiraran. A este acuerdo se le conoce como los <strong>Tratados Preliminares de la Soledad</strong>.</p>
+         <p><img src="imagenes/17.jpg" width="549" height="389"></p>
+         <p>Entre diciembre de 1861 y enero de 1862 las flotas armadas de España, Francia e Inglaterra, desembarcaron en Veracruz para ocupar las aduanas, presionar al gobierno mexicano y recuperar sus capitales. Los representantes de España e Inglaterra, el general <strong>Juan Prim</strong> y el embajador <strong>Charles Wyke</strong>, aceptaron negociar y llegar a un entendimiento con el ministro del exterior <strong>Manuel Doblado</strong> por lo que reembarcaron sus tropas y regresaron a sus países; no así el francés que exigió el pago inmediato de la deuda y <strong>Charles Ferdinand Latrille Conde de Lorencez</strong> siguiendo la consigna de <strong>Napoleón III</strong>, continuó con los planes de establecer una monarquía en México. Esto provocó la ruptura de la alianza tripartita y el incumplimiento de los &lsquo;<em>Tratados preliminares de La Soledad</em>&rsquo;; con lo que da inicio al conflicto armado entre México y Francia siendo el 19 de abril de 1862 cuando se realizan los primeros disparos en El Fortín en Veracruz. Los franceses y mexicanos conservadores establecieron un simulacro de gobierno en Orizaba, Veracruz  encabezado por el general <strong>Juan Nepomuceno Almonte</strong> para que los representara. En respuesta, <strong>Benito Juárez </strong>expidió un decreto declarando traidores a los mexicanos que colaboraran con los franceses e hizo un llamado a tomar las armas, autorizando a los gobernadores de los estados a realizar acciones al respecto y les pidió que enviaran contingentes militares con los que formó el <em>Ejército de Oriente</em>, logrando reunir cerca de 10 mil hombres, cuyos grupos cargaron sus propias insignias y pertrechos hasta Puebla para fortificarla.</p>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/juarez.jpg',1)"><img src="imagenes/zaragoza.jpg" width="414" height="567" id="Image6"></a></p>
+         <p>&nbsp;</p>
+         <h2>&nbsp;</h2>
+       </div>
+      </div>
+      <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://www.priags.org/efemerides/Efemeride.aspx?y=6252" data-role="button" id="beep">
+      <h2>Saber mas</h2>
+      </a>
+      </li>
+      </ul>
+      </div>
+      </div>
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Aqui puedes consultar mas...</h1>
+     <div>
+      <p>consultar ahora. </p>
+      <br>
+     </div>
+     <div>
+       <p><a href="http://www.udg.mx/es/efemerides/2016/5-mayo" target="_self">mas informacion aqui</a>
+       </p>
+       <p><img src="imagenes/2.jpg" width="434" height="235"></p>
+     </div>
+    </div>
+   </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion seis, MGJV</h4>
+     </div>
+     </div>
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Movimiento de la Batalla</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+         <p>La victoria sobre los franceses en Puebla, hace 155 años,  forjó la nación mexicana. &quot;La fecha ha marcado un antes y un después en  México porque ni la Revolución ni la Independencia reunieron las fuerzas de  todos los estratos contra un solo oponente&rdquo;, afirma&nbsp;el  compositor&nbsp;Sergio Berlioz, creador de la obra 'La luz de mayo'.</p>
+        <p>La batalla del 5 de mayo es absolutamente presente. Porque pareciera que México necesita un enemigo externo para unir a los mexicanos, cuando en realidad el enemigo es el propio mexicano; lo vemos hoy más que nunca&rdquo;, dice Berlioz.</p>
+        <p><img src="imagenes/9.jpg" width="463" height="350"></p>
+        <p>&nbsp;</p>
+       </div>
+      </div>
+       <div data-role="main" class="ui-content" align="center">
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion seis, MGJV</h4>
+     </div>
+     </div>
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Heroes de la Batalla.</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+         <p>Benito Juarez.</p>
+         <p><img src="imagenes/be.png" width="214" height="239" alt="w"></p>
+         <p>Ignacio Zaragaza.</p>
+         <p><img src="imagenes/ig.jpg" width="215" height="282"></p>
+         <p>Miguel Negrete.</p>
+         <p><img src="imagenes/mig.jpg" width="244" height="325"></p>
+         <p>Porfidio Diaz.</p>
+         <p><img src="imagenes/porf.jpg" width="259" height="333"></p>
+         <p>Antonio Alvarez.</p>
+         <p><img src="imagenes/an.jpg" width="220" height="283"></p>
+         <p>Felipe Berrizabal y J. Lamadrid.</p>
+         <p>&nbsp;</p>
+         <img src="imagenes/fe.jpg" width="210" height="303"><img src="imagenes/j.jpg" width="208" height="297">
+         <p>Maximiliano.</p>
+         <p><img src="imagenes/max.jpg" width="286" height="333"></p>
+         <p>&nbsp;</p>
+         <p>&nbsp;</p>
+       </div>
+      </div>
+       <div style="width:40%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://www.ngenespanol.com/el-mundo/culturas/17/05/5/datos-importantes-batalla-de-puebla/" data-role="button" id="beep">
+      <h2>saber mas.</h2>
+      </a>
+      </li>
+      </ul>
+      </div>
+      </div>
+     <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion seis, MGJV</h4>
+     </div>
+     </div>
+ 
+
+</body>
+</html>
