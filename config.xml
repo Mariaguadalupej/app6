@@ -2,13 +2,13 @@
 
  <widget xmlns ="http://www.w3.org/ns/widgets"
    xmlns:gao="http://phonegap.com/ns/1.0"
-   id="com.phonegap.exemple4"
+   id="com.phonegap.exemple5"
     version="1.0.0">
 	
-	<name> app4 Datos del Dispositivo</name>
+	<name> app5 Batalla del 5 de Mayo</name>
 	
 	<description>
-	 Aplicacion que muestre los Datos del Dispisitivo
+	 Aplicacion que muestre la batalla del 5 de mayo
 	</description>
 	
 	<author href="https://build.phonegap.com" email="mguadalupejimenez1g@gmail.com">
